@@ -14,14 +14,13 @@ dependencies:
   - scikit-image
   - scikit-learn=0.23
   - h5py
-  - xarray
   - cmocean
   - shapely
   - cartopy
   - pillow
-  - lavavu
   - pip:
       - matplotlib==3.3.4
       - gFlex
       - badlands
       - badlands-companion
+      - lavavu
