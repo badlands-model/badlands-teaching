@@ -1,7 +1,6 @@
 name: badlands-workshop
 channels:
   - conda-forge
-  - geo-down-under
   - fastai 
 dependencies:
   - python=3.8
@@ -20,7 +19,7 @@ dependencies:
   - cartopy
   - pillow
   - descartes
-  - opencv-python-headless
+  - opencv-contrib-python-headless
   - pip:
       - matplotlib==3.3.4
       - gFlex
