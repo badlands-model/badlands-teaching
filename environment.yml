@@ -20,8 +20,6 @@ dependencies:
   - pillow
   - descartes
   - opencv
-  - opencv-python-headless
-  - opencv-contrib-python-headless
   - pip:
       - matplotlib==3.3.4
       - gFlex
