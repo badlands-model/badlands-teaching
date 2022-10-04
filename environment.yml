@@ -1,0 +1,27 @@
+name: badlands-workshop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab=2.1
+  - numpy
+  - pip
+  - pandas
+  - scipy
+  - netCDF4
+  - compilers
+  - gfortran
+  - python-graphviz
+  - scikit-image
+  - scikit-learn=0.23
+  - h5py
+  - xarray
+  - cmocean
+  - shapely
+  - cartopy
+  - pillow
+  - pip:
+      - matplotlib==3.3.4
+      - gFlex
+      - badlands
+      - badlands-companion
