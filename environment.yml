@@ -26,4 +26,3 @@ dependencies:
       - badlands
       - badlands-companion
       - lavavu
-      - opencv-python
