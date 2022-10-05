@@ -1,3 +1,0 @@
-#!/bin/bash 
-rm -f /tmp/.X99-lock 
-xvfb-run -s '-screen 0 1600x1200x16' $@
