@@ -31,8 +31,8 @@ def loadStep(folder, step,timev=True):
     """
 
     # Load output files
-    flow = h5py.File(folder+'/h5/flow.time'+str(step)+'.p0.hdf5', 'r')
-    tin = h5py.File(folder+'/h5/tin.time'+str(step)+'.p0.hdf5', 'r')
+    flow = h5py.File(folder+'/h5/flow.time'+str(step)+'.hdf5', 'r')
+    tin = h5py.File(folder+'/h5/tin.time'+str(step)+'.hdf5', 'r')
 
     # Get the sea level history and depositional time for each stratigraphic layer
     with open(folder+'/xmf/tin.time'+str(step)+'.xmf') as fp:
@@ -46,7 +46,7 @@ def loadStep(folder, step,timev=True):
                 sea = val[2]
             line = fp.readline()
     if timev:
-        print 'Rendering for time step '+str(step)+': '+str(time)+' years'
+        print('Rendering for time step '+str(step)+': '+str(time)+' years')
 
     return tin,flow,sea
 
@@ -182,7 +182,7 @@ def viewTime(folder,steps=100,it=2,scaleZ=40, maxZ=100,maxED=20,flowlines=False)
         tris3.indices(tin["cells"], offset=1)
 
         # Surface map
-        tris.values(verts[:,2]-sea, 'height')
+        tris.values(verts[:,2], 'height')
         if s == 0:
             cm = tris.colourmap("world", range=[-maxZ,maxZ])
             cb = tris.colourbar()
