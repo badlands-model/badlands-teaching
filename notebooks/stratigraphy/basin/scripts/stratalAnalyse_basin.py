@@ -633,7 +633,7 @@ class stratalSection:
         if not os.path.isdir(folder):
             raise RuntimeError('The given folder cannot be found or the path is incomplete.')
 
-        
+
         self.x = None
         self.y = None
         self.xi = None

@@ -19,11 +19,11 @@
         <!-- Simulation start time [a] -->
         <start>0.</start>
         <!-- Simulation end time [a] -->
-        <end>10000000.</end>
+        <end>9000000.</end>
         <!-- Minim time step [a] -->
         <mindt>1.</mindt>
         <!-- Display interval [a] -->
-        <display>200000.</display>
+        <display>300000.</display>
     </time>
 
     <!-- Simulation stratigraphic structure -->
@@ -31,7 +31,7 @@
         <!-- Stratal grid resolution [m] -->
         <stratdx>1000.</stratdx>
         <!-- Stratal layer interval [a] -->
-        <laytime>200000.</laytime>
+        <laytime>300000.</laytime>
     </strata>
 
     <!-- Sea-level structure -->
