@@ -24,7 +24,7 @@ dependencies:
       - matplotlib==3.3.4
       - gFlex
       - badlands
-      - badlands-companion
+      # - badlands-companion
       - lavavu
       - piglet
       - pyvirtualdisplay
