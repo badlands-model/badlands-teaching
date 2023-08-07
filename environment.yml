@@ -20,6 +20,7 @@ dependencies:
   - pillow
   - descartes
   - pyvista
+  - meshplex
   - pip:
       - matplotlib==3.3.4
       - gFlex
