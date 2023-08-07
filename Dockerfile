@@ -1,5 +1,5 @@
 FROM badlandsmodel/badlands:binder
-RUN python3 -m pip install --no-cache-dir notebook jupyterlab
+
 ARG NB_USER=jovyan
 ARG NB_UID=1000
 ENV USER ${NB_USER}
