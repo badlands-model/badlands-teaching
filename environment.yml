@@ -11,15 +11,15 @@ dependencies:
   - scipy
   - compilers
   - gfortran
-  - scikit-image
-  - scikit-learn=0.23
+  # - scikit-image
+  # - scikit-learn=0.23
   - h5py
   - cmocean
-  - shapely
-  - cartopy
-  - pillow
-  - descartes
-  - pyvista
+  # - shapely
+  # - cartopy
+  # - pillow
+  # - descartes
+  # - pyvista
   - meshplex
   - pip:
       - matplotlib==3.3.4
