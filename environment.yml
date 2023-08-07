@@ -25,6 +25,7 @@ dependencies:
       - matplotlib==3.3.4
       - gFlex
       - plotly
+      - colorlover
       - badlands
       # - badlands-companion
       - lavavu
