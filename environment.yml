@@ -19,7 +19,7 @@ dependencies:
   # - cartopy
   # - pillow
   # - descartes
-  # - pyvista
+  - pyvista
   - meshplex
   - pip:
       - matplotlib==3.3.4
