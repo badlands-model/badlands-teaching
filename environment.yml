@@ -1,0 +1,25 @@
+name: badlands-workshop
+channels:
+  - conda-forge
+  - fastai
+dependencies:
+  - python=3.8
+  - jupyterlab=2.1
+  - numpy=1.21
+  - pip
+  - pandas
+  - scipy
+  - compilers
+  - gfortran
+  - h5py
+  - cmocean
+  - meshplex
+  - pip:
+      - matplotlib==3.3.4
+      - gFlex
+      - colorlover
+      - badlands
+      - lavavu
+      - piglet
+      - pyvirtualdisplay
+      - plotly
