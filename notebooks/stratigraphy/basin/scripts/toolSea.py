@@ -17,6 +17,7 @@ from scipy import interpolate
 import matplotlib.pyplot as plt
 
 import plotly
+from plotly.offline import init_notebook_mode, iplot
 from plotly.graph_objs import *
 plotly.offline.init_notebook_mode()
 
@@ -326,7 +327,7 @@ class toolSea:
                 )
 
             fig = Figure(data=data, layout=layout)
-            plotly.offline.iplot(fig)
+            iplot(fig)
 
         return
 
