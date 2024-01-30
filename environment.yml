@@ -14,12 +14,16 @@ dependencies:
   - h5py
   - cmocean
   - meshplex
+  - gFlex
+  - pyvirtualdisplay
+  - colorlover
+  - plotly
   - pip:
       # - matplotlib==3.3.4
-      - gFlex
-      - colorlover
+      # - gFlex
+      # - colorlover
       - badlands
       - lavavu
-      - piglet
-      - pyvirtualdisplay
-      - plotly
+      # - piglet
+      # - pyvirtualdisplay
+      # - plotly
