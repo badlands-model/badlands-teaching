@@ -27,7 +27,7 @@ from scipy.interpolate import RectBivariateSpline
 from scipy.ndimage.filters import gaussian_filter
 
 import plotly
-from plotly import tools
+from plotly.offline import init_notebook_mode, iplot
 from plotly.graph_objs import *
 plotly.offline.init_notebook_mode()
 
@@ -100,7 +100,7 @@ def viewData(x0 = None, y0 = None, width = 800, height = 400, linesize = 3, colo
             )
 
     fig = Figure(data=[trace], layout=layout)
-    plotly.offline.iplot(fig)
+    iplot(fig)
 
     return
 
@@ -442,7 +442,7 @@ def viewSection(width = 800, height = 400, cs = None, dnlay = None,
                 height=height
         )
     fig = Figure(data=data, layout=layout)
-    plotly.offline.iplot(fig)
+    iplot(fig)
 
     return
 
@@ -556,7 +556,7 @@ def viewSectionST(width = 800, height = 400, cs = None, dnlay = None, colors=Non
                 height=height
         )
     fig = Figure(data=data, layout=layout)
-    plotly.offline.iplot(fig)
+    iplot(fig)
 
     return
 
