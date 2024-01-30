@@ -14,18 +14,18 @@ dependencies:
   - gfortran
   - h5py
   - cmocean
-  # - meshplex
+  - meshplex
   - gFlex
   - pyvirtualdisplay
   - colorlover
   - plotly
   - lavavu
-  - pip:
+  # - pip:
       # - matplotlib==3.3.4
       # - gFlex
       # - colorlover
       # - badlands --install-option="--no-deps"
-      - badlands
+      # - badlands
       # - lavavu
       # - piglet
       # - pyvirtualdisplay
