@@ -21,7 +21,7 @@ from scipy.spatial import cKDTree
 import xml.etree.ElementTree as ETO
 
 import plotly
-from plotly import tools
+from plotly.offline import init_notebook_mode, iplot
 from plotly.graph_objs import *
 plotly.offline.init_notebook_mode()
 
