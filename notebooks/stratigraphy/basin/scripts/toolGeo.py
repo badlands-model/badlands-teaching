@@ -22,6 +22,7 @@ import matplotlib.pyplot as plt
 import os, sys, datetime, string
 
 import plotly
+from plotly.offline import init_notebook_mode, iplot
 from plotly.graph_objs import *
 plotly.offline.init_notebook_mode()
 
@@ -234,6 +235,6 @@ class toolGeo:
         )
 
         fig = Figure(data=data, layout=layout)
-        plotly.offline.iplot(fig)
+        iplot(fig)
 
         return
