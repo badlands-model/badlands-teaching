@@ -20,11 +20,12 @@ dependencies:
   - colorlover
   - plotly
   - lavavu
-  # - pip:
+  - pip:
       # - matplotlib==3.3.4
       # - gFlex
       # - colorlover
-      # - badlands
+      - badlands --install-option="--no-deps"
+      - badlands
       # - lavavu
       # - piglet
       # - pyvirtualdisplay
