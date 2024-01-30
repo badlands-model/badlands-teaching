@@ -4,7 +4,7 @@ channels:
   - fastai
   - geo-down-under
 dependencies:
-  - python=3.8
+  - python=3.7
   - jupyterlab=2.1
   - numpy=1.21
   - pip
