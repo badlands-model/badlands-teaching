@@ -2,6 +2,7 @@ name: badlands-workshop
 channels:
   - conda-forge
   - fastai
+  - geo-down-under
 dependencies:
   - python=3.8
   - jupyterlab=2.1
@@ -18,12 +19,13 @@ dependencies:
   - pyvirtualdisplay
   - colorlover
   - plotly
+  - lavavu
   - pip:
       # - matplotlib==3.3.4
       # - gFlex
       # - colorlover
       - badlands
-      - lavavu
+      # - lavavu
       # - piglet
       # - pyvirtualdisplay
       # - plotly
